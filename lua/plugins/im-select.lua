@@ -1,6 +1,8 @@
 ---@type LazySpec
 return {
   "keaising/im-select.nvim",
+  -- enable in vscode
+  cond = vim.g.vscode,
   config = function()
     require("im_select").setup {
       -- IM will be set to `default_im_select` in `normal` mode
