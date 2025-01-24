@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 return {
   "yetone/avante.nvim",
@@ -10,6 +10,11 @@ return {
     auto_suggestions_provider = "openai",
     openai = {
       -- model = "gpt-4o",
+      -- deepseek 兼容 openai 接口
+      endpoint = "https://api.deepseek.com/v1",
+      model = "deepseek-chat",
+      temperature = 0,
+      max_tokens = 4096,
     },
   },
 }

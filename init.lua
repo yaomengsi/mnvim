@@ -1,7 +1,7 @@
-if vim.g.vscode then
-  vim.keymap.set("", "<Space>", "<Nop>")
-  vim.g.mapleader = " "
-end
+-- if vim.g.vscode then
+--   vim.keymap.set("", "<Space>", "<Nop>")
+--   vim.g.mapleader = " "
+-- end
 -- vim.api.nvim_set_keymap("n", "<leader><leader>", ':echo "Leader key works!"<CR>', { noremap = true, silent = true })
 -- vim.keymap.set("n", "<leader><leader>", ':echo "Leader key works"<CR>')
 

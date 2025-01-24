@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.motion.nvim-surround" },
   -- ai completion
-  -- { import = "astrocommunity.completion.avante-nvim" },
+  { import = "astrocommunity.completion.avante-nvim" },
   -- language
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.rust" },
